@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <definitions 
+ xmlns="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="GetContent9029" targetNamespace="" xmlns:tns="" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:fi="http://java.sun.com/xml/ns/wsit/2006/09/policy/fastinfoset/service" xmlns:tcp="http://java.sun.com/xml/ns/wsit/2006/09/policy/soaptcp/service" xmlns:wsp1="http://schemas.xmlsoap.org/ws/2004/09/policy" 
+ >
+    <message name="contentRequest"/>
+    <message name="contentRequestResponse"/>
+    <portType name="GetContent9029">
+        <operation name="contentRequest">
+            <input message="tns:contentRequest"/>
+            <output message="tns:contentRequestResponse"/>
+        </operation>
+    </portType>
+    <binding name="GetContent9029PortBinding" type="tns:GetContent9029">
+        <wsp1:PolicyReference URI="#GetContent9029PortBindingPolicy"/>
+        <operation name="contentRequest">
+            <input/>
+            <output/>
+        </operation>
+    </binding>
+    <service name="GetContent9029">
+        <port name="GetContent9029Port" binding="tns:GetContent9029PortBinding"/>
+    </service>
+    <wsp1:Policy wsu:Id="GetContent9029PortBindingPolicy">
+        <wsp1:ExactlyOne>
+            <wsp1:All/>
+        </wsp1:ExactlyOne>
+    </wsp1:Policy>
+</definitions>

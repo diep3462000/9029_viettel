@@ -1,0 +1,8 @@
+Sep 28, 2014 11:43:42 PM ws.centech.sdp.mo.VdcOnlineSms ReceiveMO
+INFO: Params Input: moid=1;moseq=1;src=84982051117;dest=8088;cmdcode=GAME;msgbody=GAME ALAO AAA;opid=VIETTEL8x88;username=vdconline8x88;password=Vdc0line8xx8
+Sep 28, 2014 11:43:42 PM ws.centech.sdp.mo.VdcOnlineSms ReceiveMO
+INFO: ReceiveMO(): Return string for msisdn 84982051117: "SUCCESS[202]"
+Sep 28, 2014 11:43:55 PM ws.centech.sdp.mo.VdcOnlineSms ReceiveMO
+INFO: Params Input: moid=1;moseq=1;src=84982051117;dest=8088;cmdcode=GAME;msgbody=GAME ALAO AAA;opid=VIETTEL8x88;username=vdconline8x88;password=Vdc0line8xx8
+Sep 28, 2014 11:43:55 PM ws.centech.sdp.mo.VdcOnlineSms ReceiveMO
+INFO: ReceiveMO(): Return string for msisdn 84982051117: "SUCCESS[202]"

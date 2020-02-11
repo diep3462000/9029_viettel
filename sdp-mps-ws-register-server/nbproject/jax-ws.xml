@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="RegActionService">
+      <implementation-class>ws.centech.sdp.mps.server.RegActionService</implementation-class>
+    </service>
+    <service name="GetContentActionService">
+      <implementation-class>ws.centech.sdp.mps.server.GetContentActionService</implementation-class>
+    </service>
+    <service name="RenewActionService">
+      <implementation-class>ws.centech.sdp.mps.server.RenewActionService</implementation-class>
+    </service>
+    <service name="MoReceiver9029TEST">
+      <implementation-class>ws.centech.sdp.mps.server.MoReceiver9029TEST</implementation-class>
+    </service>
+    <service name="NotifyActionService">
+      <implementation-class>ws.centech.sdp.mps.server.NotifyActionService</implementation-class>
+    </service>
+    <service name="RegActionTestService">
+      <implementation-class>ws.centech.sdp.mps.server.RegActionTestService</implementation-class>
+    </service>
+    <service name="GetContent9029">
+      <implementation-class>ws.centech.sdp.mps.server.GetContent9029</implementation-class>
+    </service>
+    <service name="MoReceiver9029">
+      <implementation-class>ws.centech.sdp.mps.server.MoReceiver9029</implementation-class>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>true</jsr109>
+</jax-ws>

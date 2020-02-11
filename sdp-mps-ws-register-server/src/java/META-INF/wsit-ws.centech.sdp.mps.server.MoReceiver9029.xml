@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <definitions 
+ xmlns="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="MoReceiver9029" targetNamespace="http://server.mps.sdp.centech.ws/" xmlns:tns="http://server.mps.sdp.centech.ws/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsrm="http://docs.oasis-open.org/ws-rx/wsrmp/200702" 
+ >
+    <message name="contentRequest"/>
+    <message name="contentRequestResponse"/>
+    <portType name="MoReceiver9029">
+        <operation name="contentRequest">
+            <input message="tns:contentRequest"/>
+            <output message="tns:contentRequestResponse"/>
+        </operation>
+    </portType>
+    <binding name="MoReceiver9029PortBinding" type="tns:MoReceiver9029">
+        <operation name="contentRequest">
+            <input/>
+            <output/>
+        </operation>
+    </binding>
+    <service name="MoReceiver9029">
+        <port name="MoReceiver9029Port" binding="tns:MoReceiver9029PortBinding"/>
+    </service>
+</definitions>
